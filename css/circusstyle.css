@@ -1,0 +1,77 @@
+body {
+    background-image: url('../img/circus-bg.PNG');
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+    opacity: 0.75;
+   }
+ 
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+   }
+
+   .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 500px;
+    padding: 20px;
+   }
+ 
+   .block {
+    width: 95%;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-size: 24px; 
+    font-family: sans-serif;
+    color: black;
+    text-transform: capitalize; 
+    text-align: center; 
+    word-wrap: break-word;
+    margin: 0 10px; 
+    flex: 1;
+    overflow: auto;
+   }
+ 
+   textarea {
+    width: 95%;
+    height: 350px;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: visible;
+    background-color: #000000;
+    font-size: 24px;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+   }
+
+button {
+    border-radius: 100px;
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    font-size: 24px;
+    font-family: serif;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 auto; /* добавили выравнивание по центру по горизонтали */
+}
+
+button:hover {
+    box-shadow: 0 0 5px gray;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5); 
+}
