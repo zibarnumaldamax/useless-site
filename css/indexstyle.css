@@ -41,7 +41,7 @@ body{
    }
    .gblock img{
     max-width: 100%;
-    height: auto;
+    height: 150px;
    }
    .gblock a{
     margin-top: 10px;

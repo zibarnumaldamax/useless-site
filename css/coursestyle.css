@@ -41,6 +41,7 @@ body {
 
   #myimg {
     opacity: 0;
+    height: 100%;
   }
 
   #slider {
