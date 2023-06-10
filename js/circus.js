@@ -1,4 +1,4 @@
-var isPlaying = false;
+var isPlaying = true;
 toggleBtn.addEventListener('click', () => {
   if(!isPlaying) {
    audio.play();
@@ -32,20 +32,6 @@ const textarea2 = document.querySelector('#textarea2');
     displayText += `<span style="color:${color}; font-family:${font}; text-transform:${caseType}">${text.charAt(i)}</span>`;
    }
 
-   textarea2.innerHTML = ""; // Обновление содержимого div элемента предварительно очищая его содержимое
-   textarea2.innerHTML = displayText; // Добавление отформатированного текста в div элемент/
+   textarea2.innerHTML = ""; 
+   textarea2.innerHTML = displayText; 
   });
-
-/*let audio = new Audio('sound/Danny Elfman - breakfast machine.mp3');
-let isPlaying = false;
-toggleBtn.addEventListener('click', () => {
-  if(!isPlaying) {
-   audio.play();
-   toggleBtn.innerHTML = 'Pause Audio';
-   isPlaying = true;
-  } else {
-   audio.pause();
-   toggleBtn.innerHTML = 'Play Audio';
-   isPlaying = false;
-  }
-});*/

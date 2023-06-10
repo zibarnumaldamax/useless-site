@@ -1,4 +1,4 @@
-var isPlaying = false;
+var isPlaying = true;
 toggleBtn.addEventListener('click', () => {
   if(!isPlaying) {
    audio.play();

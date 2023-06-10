@@ -122,7 +122,7 @@ body {
     border: none;
     cursor: pointer;
     transition: all 0.3s;
-    margin: 0 auto; /* добавили выравнивание по центру по горизонтали */
+    margin: 0 auto; 
 }
 
 button:hover {
